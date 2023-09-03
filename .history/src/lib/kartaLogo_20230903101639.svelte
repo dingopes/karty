@@ -1,0 +1,17 @@
+<script>
+	import Netopyr from '../assets/netopyr.svg?raw';
+
+	export let logoId = '';
+	export let logoSize = '60%';
+</script>
+
+<div class=" card variant-glass p-4 flex flex-column">
+	<figure class="w-full">
+		<div class="img-bg justify-center inset-0 m-auto" />
+		<div class="icon flex" style="height:{logoSize} width:auto margin:auto;">
+			<SvgMagazin {iconId} />
+
+			<!-- SVG obsah -->
+		</div>
+	</figure>
+</div>
