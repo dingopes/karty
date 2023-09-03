@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+}
+
+/* modern theme */
+@font-face {
+	font-family: 'Quicksand';
+	src: url('/fonts/Quicksand.ttf');
+	font-display: swap;
+}
+
+:root {
+	--theme-font-family-base: 'MyCustomFont', sans-serif;
+	--theme-font-family-heading: 'MyCustomFont', sans-serif;
+}
+.logo-item {
+	color: var(--theme-font-color-base);
+	color: var(--xxx);
+}
+
+.test {
+	color: var(--xxx);
+}
