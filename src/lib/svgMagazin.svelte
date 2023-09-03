@@ -1,6 +1,6 @@
 <script>
 	import DivnyKralik from '../assets/divnyKralik.svg?raw';
-	import BeznyKralik from '../assets/beznyKralik.svg?raw';
+	import BeznyKralik from '../assets/beznyKralik.svg';
 	import Netopyr from '../assets/netopyr.svg?raw';
 
 	// tady je potřeba registrovat ikony !!!
